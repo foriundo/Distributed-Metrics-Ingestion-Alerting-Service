@@ -13,3 +13,11 @@ def root():
 @app.get("/Docs")
 def docs():
     return {"message": "You are in docs section"}
+
+
+@app.get("HealthCheck")
+def health_check():
+    return {"status": "healthy"}  
+
+
+
