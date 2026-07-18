@@ -7,3 +7,8 @@ A self-hosted observability backend that ingests high-cardinality time-series me
 - TimescaleDB
 - Redis
 - Docker
+
+# To run it
+'''
+uv run uvicorn metrics_services.main:app --reload
+'''

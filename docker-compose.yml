@@ -1,0 +1,5 @@
+services:
+  web:
+    image: timescale/timescale:latest-pg17
+    ports:
+      - "8080:80"
